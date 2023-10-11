@@ -22,8 +22,7 @@ author: Sydney Miller
 navbar-links:
   About Me: "aboutme"
   Linked In: "https://www.linkedin.com/in/sydney-miller-/s"
-  - text: "CV"
-  url: "Sydney.pdf"
+  CV: "Sydney.pdf"
 #  Resources:
 #    - LinkedIn: "https://www.linkedin.com/in/sydney-miller-/s"
 #    - Learn markdown: "https://www.markdowntutorial.com/"
