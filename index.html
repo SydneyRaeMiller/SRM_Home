@@ -2,12 +2,15 @@
 layout: home
 title: Hi There!
 ---
- 
+
 <div class="container">
-  
-  <h1>My name is Sydney Miller</h1>
-  
-  <p>
+  <div class="centered-header">
+    <h1>My name is Sydney Miller</h1>
+  </div>
+
+  <div class="content-wrapper">
+    <div class="content-left">
+      <p>
     Welcome to my corner of the digital world!
     
     I'm a recent graduate of Carnegie Mellon University with an MA in Literary and Cultural Studies 
@@ -15,8 +18,35 @@ title: Hi There!
     
     My research interests include AI and its social implications, natural language processing, 
     digital humanities, and pedagogy.
-  </p>
 
+      </p>
+    </div>
+
+    <div class="content-right">
+      <img src="sydney_hawaii_picture.jpg" alt="Your Name" style="max-width: 100%;">
+    </div>
+  </div>
 </div>
 
+<style>
+  .centered-header {
+    text-align: center;
+  }
+
+  .content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .content-left {
+    flex: 1;
+    padding: 20px;
+  }
+
+  .content-right {
+    flex: 1;
+    padding: 20px;
+  }
+</style>
 
